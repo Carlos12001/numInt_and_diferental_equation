@@ -1,4 +1,5 @@
-# numInt and diferential equation
+# numIn and diferental equation
+
 
 ## Parte 1
 
