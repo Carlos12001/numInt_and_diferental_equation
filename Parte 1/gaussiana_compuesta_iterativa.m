@@ -7,7 +7,7 @@ function I = gaussiana_compuesta_iterativa(f,a,b,m,tol=eps,iterMax=2500)
   % que minimice al máximo estos errores.
   % Sintaxis: I = gaussiana_compuesta_iterativa(f,a,b,m,tol,iterMax)
   % Parametros de entrada:
-  % f = función a evaluar (string)
+  % f = función a integrar, debe ser string de la manera: "f(x)"
   % a y b = rangos de análisis. a sería el inicial y b el final ([a,b])
   % m = orden de la cuadratura
   % tol = tolerancia de error permitida (por defecto cero de máquina)

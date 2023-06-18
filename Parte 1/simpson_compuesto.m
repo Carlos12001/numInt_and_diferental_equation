@@ -4,7 +4,7 @@ function I = simpson_compuesto(f,a,b,n)
   % método de simpson a cada subintervalo
   % Sintaxis: I = simpson_compuesto(f, a, b, n)
   % Parametros de entrada:
-  % f = función a evaluar (string)
+  % f = función a integrar, debe ser string de la manera: "f(x)"
   % a y b = rangos de análisis. a sería el inicial y b el final ([a,b])
   % n = Cantidad de intervalos a dividir de la función f
   % Parametros de salida
@@ -25,7 +25,7 @@ function I = simpson(f, a, b)
   % medio del método de simpson
   % Sintaxis: I = simpson(f, a, b)
   % Parametros de entrada:
-  % f = función a evaluar (string)
+  % f = función a integrar, debe ser string de la manera: "f(x)"
   % a y b = rangos de análisis. a sería el inicial y b el final ([a,b])
   % Parametros de salida
   % I = Aproximación de f por medio del método de simpson

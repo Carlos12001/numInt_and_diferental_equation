@@ -3,7 +3,7 @@ function I = gaussiana_compuesta(f,a,b,m,n)
   % medio del método de cuadratura gaussiana compuesta
   % Sintaxis: I = gaussiana_compuesta(f,a,b,m,n)
   % Parametros de entrada:
-  % f = función a evaluar
+  % f = función a integrar, debe ser string de la manera: "f(x)"
   % a y b = rangos de análisis. a sería el inicial y b el final ([a,b])
   % m = orden de la cuadratura
   % n = puntos en los que se divide el intervalo
@@ -30,7 +30,7 @@ function G = gaussiana(fn, a, b, x, w)
   % medio del método de cuadratura gaussiana
   % Sintaxis: G = gaussiana(fn, a, b, x, w)
   % Parametros de entrada:
-  % fn = función a evaluar (función anónima)
+  % fn = función a integrar, debe ser una función anónima
   % a y b = rangos de análisis. a sería el inicial y b el final ([a,b])
   % x = cero de Legendre de la cuadratura de Gauss
   % w = peso de la cuadratura de Gauss

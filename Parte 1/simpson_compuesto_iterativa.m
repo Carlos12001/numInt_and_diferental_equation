@@ -7,7 +7,7 @@ function I = simpson_compuesto_iterativa(f,a,b,tol=eps,iterMax=2500)
   % errores.
   % Sintaxis: I = simpson_compuesto_iterativa(f,a,b,tol,iterMax)
   % Parametros de entrada:
-  % f = función a evaluar (string)
+  % f = función a integrar, debe ser string de la manera: "f(x)"
   % a y b = rangos de análisis. a sería el inicial y b el final ([a,b])
   % tol = tolerancia de error permitida (por defecto es el cero de la máquina)
   % iterMax = número máximo de iteraciones permitida (por defecto 2500)
