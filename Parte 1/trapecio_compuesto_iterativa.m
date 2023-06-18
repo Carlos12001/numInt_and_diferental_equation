@@ -7,7 +7,7 @@ function I = trapecio_compuesto_iterativa(f,a,b,tol=eps,iterMax=2500)
   %  minimice al máximo estos errores.
   % Sintaxis: I = trapecio_compuesto_iterativa(f,a,b,tol,iterMax)
   % Parametros de entrada:
-  % f = función a evaluar
+  % f = función a evaluar (string)
   % a y b = rangos de análisis. a sería el inicial y b el final
   %  ([a,b])
   % tol = tolerancia de error permitida por defecto es el cero de 
