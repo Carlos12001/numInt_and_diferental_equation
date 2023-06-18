@@ -21,7 +21,7 @@ function I = trapecio_compuesto_iterativa(f,a,b,tol=eps,iterMax=2500)
   I = 0;
   for i = 2:iterMax
     Inew = trapecio_compuesto(f,a,b,i);
-    err = Inew - I;
+    err = abs(Inew - I);
     I = Inew;
     if abs(err) < tol
       break;
