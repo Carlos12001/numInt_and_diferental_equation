@@ -11,7 +11,7 @@ function ejecutable()
   % de los métodos mencionados previamente
   clc;
   clear;
-  
+  format long;
   % Datos de entrada
   f = "log(asin(x))/log(x)";
   a = 0.1;
