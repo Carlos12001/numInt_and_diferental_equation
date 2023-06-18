@@ -1,0 +1,9 @@
+Name: NumInt
+Version: 1.0.0
+Date: 2023-06-18
+Author: Carlos Andres Mata Calderon
+Maintainer: Carlos Andres Mata Calderon <carlos.andres12001@gmail.com>
+Title: Octave Numerical Integration Package
+Description: A package for numerical integration in Octave.
+Categories: integration
+License: GPL-3.0-or-later
