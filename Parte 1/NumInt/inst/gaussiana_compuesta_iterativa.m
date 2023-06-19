@@ -15,10 +15,11 @@ function I = gaussiana_compuesta_iterativa(f,a,b,m,tol=eps,iterMax=2500)
   % Parametros de salida
   % I = Aproximación de f por medio del método de cuadratura gaussiana 
   % compuesta iterativa
-  I = 0;
-  for i = 2:50:iterMax
+  I = 1e20;
+  for i = 2:iterMax
     Inew = gaussiana_compuesta(f,a,b,m,i);
-    err = I - Inew;
+    err = abs(I - Inew);
+    I = Inew;
     if err < tol
       break;
     end

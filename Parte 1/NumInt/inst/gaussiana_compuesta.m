@@ -38,9 +38,10 @@ function G = gaussiana(fn, a, b, x, w)
   % G = Aproximación de fn por medio del método de cuadratura gaussiana
   len = length(w);
 
+  g=@(x) ((b-a)/2)*fn((b-a)/2*x+(b+a)/2);
   G=0;
-  for k=1:len
-    G=G+w(k)*fn( ((b - a) / 2) * x(k) + (b + a) / 2 );
+  for i=1:len
+    G=G+w(i)*g(x(i));
   end
 end
 

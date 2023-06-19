@@ -39,6 +39,6 @@ function ejecutable()
   I = gaussiana_compuesta(f, a, b, m, n)
 
   display("Cuadratura gausiana compuesta iterativa:")
-  % I = gaussiana_compuesta_iterativa(f, a, b, m, tol, iterMax)
+  I = gaussiana_compuesta_iterativa(f, a, b, m, tol, iterMax)
 
 end
